@@ -42,7 +42,8 @@
 :after,
 :before {
     -webkit-box-sizing: border-box;
-    box-sizing: border-box
+    box-sizing: border-box;
+    font-family: FontAwesome, Microsoft JhengHei UI, 等线, 黑体;
 }
 
 html {
@@ -1153,7 +1154,7 @@ table th [class*=col-] {
 .kratos-topnav {
     background: rgba(40, 42, 44, .6);
     left: 0;
-    padding: 0;
+    padding: 7px;
     position: fixed;
     top: 0;
     -webkit-transition: all .5s;
@@ -1355,7 +1356,8 @@ body.scroll-down.nav-up #kratos-desktop-topnav {
 }
 
 #kratos-blog-post .row article {
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    border-radius: 20px;
 }
 
 .pagination {
@@ -1698,7 +1700,7 @@ ul.kratos-post-meta:not(:last-child) {
 }
 
 .kratos-entry-border-new {
-    position: relative
+    position: relative;
 }
 
 .kratos-entry-border-new .kratos-post-meta-new {
@@ -1709,7 +1711,9 @@ ul.kratos-post-meta:not(:last-child) {
     font-size: 12px;
     line-height: 27px;
     overflow: hidden;
-    padding: 3px 20px
+    padding: 3px 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .kratos-entry-border-new .kratos-post-meta-new a i {
@@ -2487,7 +2491,6 @@ body.scroll-down .kr-tool .box.gotop-box {
 
 #footer {
     background: #23282d;
-    padding-top: 40px
 }
 
 #footer.ap-lrc {
@@ -3386,7 +3389,8 @@ a:hover {
 }
 
 #kratos-desktop-topnav {
-    background: rgba(40, 42, 44, .6)
+    background: rgba(40, 42, 44, 0.115);
+    backdrop-filter: blur(10px);
 }
 
 #kratos-mobile-topnav {
@@ -3479,7 +3483,12 @@ span.mjx-chtml.MJXc-display {
 }
 
 .kratos-cover.kratos-cover-2 {
-    background-image: url(../images/banner.webp)
+    background-image: url(../images/banner.png);
+    background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
 }
 
 @media (min-width:768px) {
