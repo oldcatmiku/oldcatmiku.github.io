@@ -1,4 +1,4 @@
-var all = 22
+var all = 23
 tips = new Array(all);
 //条目内容
 tips[0] = '“写完压轴题发现写错位置”';
