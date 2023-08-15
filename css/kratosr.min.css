@@ -43,9 +43,15 @@
 :before {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+}
+*:not(pre,span,code){
     font-family: FontAwesome, Microsoft JhengHei UI, 等线, 黑体;
 }
-
+code,
+pre,
+samp{
+    font-family: Fira Code, Consolas, Courier New, monospace;
+}
 html {
     height: 100%
 }
@@ -235,13 +241,6 @@ caption {
 cite {
     font-style: normal
 }
-
-code,
-pre,
-samp {
-    font-family: Fira Code, Consolas, Courier New, monospace
-}
-
 dfn {
     font-style: italic
 }
@@ -2413,7 +2412,7 @@ ul.kratos-post-meta:not(:last-child) {
 }
 
 #kratos-widget-area #krw-toc .toc-item.active>a {
-    background: linear-gradient(120deg, #e0c3fc, #8ec5fc);
+    /* background: linear-gradient(120deg, #e0c3fc, #8ec5fc); */
     color: #fff
 }
 

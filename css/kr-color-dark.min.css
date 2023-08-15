@@ -149,7 +149,7 @@ ul.kratos-post-meta span {
 .kratos-hentry,
 .navigation div,
 .pagination>li>a {
-    background-color: rgba(5, 5, 5, 0.579);
+    background-color: rgba(5, 5, 5, 0.75);
     /* backdrop-filter: blur(2px); */
 }
 
