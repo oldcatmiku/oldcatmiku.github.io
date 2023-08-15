@@ -61,8 +61,8 @@ table th {
 }
 
 .kratos-entry-border-new .kratos-post-meta-new {
-    background: rgba(37, 45, 56, .875);
-    border-top: 1px solid #ccc
+    border-top: 1px solid #ccc;
+    background: none;
 }
 
 .kratos-entry-border-new .kratos-status i {
@@ -149,7 +149,8 @@ ul.kratos-post-meta span {
 .kratos-hentry,
 .navigation div,
 .pagination>li>a {
-    background-color: rgba(40, 44, 52, .867)
+    background-color: rgba(5, 5, 5, 0.579);
+    /* backdrop-filter: blur(2px); */
 }
 
 .arc-tags a {
@@ -305,7 +306,11 @@ span.mjx-chtml.MJXc-display {
 
 @media (min-width:768px) {
     body.custom-background {
-        background-image: url(../images/bg_dark.webp)
+        background-image: url(../images/bg_dark.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
     }
 }
 
