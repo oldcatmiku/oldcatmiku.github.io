@@ -48,7 +48,7 @@
     box-sizing: border-box;
 }
 *:not(pre,span,code){
-    font-family: FontAwesome, Microsoft JhengHei UI, 等线, 黑体;
+    font-family: FontAwesome, 等线, 黑体;
 }
 code,
 pre,
@@ -58,7 +58,9 @@ samp{
 html {
     height: 100%
 }
-
+h2{
+    text-align: center;
+}
 ::-webkit-scrollbar {
     height: 8px;
     width: 8px
@@ -2568,7 +2570,7 @@ body.scroll-down .kr-tool .box.gotop-box {
 #footer .kratos-copyright li {
     color: hsla(0, 0%, 100%, .3);
     font-size: 12px;
-    line-height: 1;
+    line-height: 1.4;
     margin: 0 2px
 }
 
