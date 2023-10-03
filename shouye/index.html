@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oldcat's CyberWorld</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+            font-family: Arial, sans-serif;
+        }
+
+        .banner {
+            width: 100%;
+            height: 400px;
+            background: url('banner-image.jpg') no-repeat center center/cover;
+        }
+
+        .intro {
+            text-align: center;
+            padding: 50px 0;
+			font-family: "Albert Sans",Microsoft JhengHei UI,等线;
+			font-weight: normal;
+        }
+
+        .intro h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .intro p {
+            font-size: 18px;
+        }
+
+        .project {
+            display: flex;
+            justify-content: center;
+            padding: 50px 0;
+        }
+
+        .project-box {
+            width: 400px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 0 20px;
+            text-align: center;
+        }
+
+        .project-box img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .project-box h2 {
+            margin: 20px 0;
+        }
+
+        .project-box p {
+            padding: 0 20px;
+        }
+        a{
+            color: black;
+            text-decoration-line: none;
+        }
+        @media (max-width: 850px) {
+            .project {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .project-box {
+                margin: 20px 0;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="banner"></div>
+
+    <div class="intro">
+        <h1>Welcome to Oldcat's CyberWorld.</h1>
+        <p>於此之境，創意展翅高飛；夢想匯聚，革新歌唱。<br>Creativity unfurls its wings; where dreams converge and innovation sings.</p>
+    </div>
+
+    <div class="project">
+        <div class="project-box">
+            <a href="http://oldcatmiku.top" target="_blank">
+                <img src="blog-image.png" alt="老猫的Blog">
+                <h2>老猫的Blog</h2>
+                <p>这是老猫的个人博客，分享生活、技术和创意。</p>
+            </a>
+        </div>
+        <div class="project-box">
+            <a href="http://txc.oldcatmiku.top" target="_blank">
+                <img src="txc-team-image.png" alt="TXC团队主页">
+                <h2>TXC团队主页</h2>
+                <p>欢迎访问TXC团队的主页，了解我们的项目和成员。</p>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
